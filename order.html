@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order | Funky Cafe</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+<header class="order-header">
+  <h1>🍽 Funky Cafe Menu</h1>
+  <a href="index.html">← Back to Home</a>
+</header>
+
+<main class="order-container">
+
+  <!-- MENU -->
+  <section class="menu">
+    <h2>Menu</h2>
+
+    <div class="menu-grid">
+      <div class="item">
+        <h3>Coffee</h3>
+        <p>₹50</p>
+        <button onclick="addItem('Coffee',50)">Add</button>
+      </div>
+
+      <div class="item">
+        <h3>Sandwich</h3>
+        <p>₹100</p>
+        <button onclick="addItem('Sandwich',100)">Add</button>
+      </div>
+
+      <div class="item">
+        <h3>Cold Coffee</h3>
+        <p>₹80</p>
+        <button onclick="addItem('Cold Coffee',80)">Add</button>
+      </div>
+
+      <div class="item">
+        <h3>French Fries</h3>
+        <p>₹70</p>
+        <button onclick="addItem('French Fries',70)">Add</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CART -->
+  <aside class="cart">
+    <h2>Your Order</h2>
+    <div id="cartItems"></div>
+
+    <div class="bill" id="bill"></div>
+
+    <button class="place-order">Place Order</button>
+  </aside>
+
+</main>
+
+<script src="order.js"></script>
+</body>
+</html>
