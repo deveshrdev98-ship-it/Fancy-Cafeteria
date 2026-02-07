@@ -4,6 +4,7 @@ Funky Café is a **modern, Gen-Z inspired cafeteria website** designed with a ch
 It’s built to showcase a café’s **menu, online orders, events, table bookings, and contact details** — all in one smooth frontend experience.
 
 🔗 **Live Website:**  
+https://deveshrdev98-ship-it.github.io/Fancy-Cafeteria/
 
 ---
 
